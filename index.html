@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mia Nguyen</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+    <style>
+        body{
+            background-color:#faf6f2
+        }
+        a:link{
+            color: pink;
+            text-decoration: none;
+        }
+        a:visited{color: #d49e8d;}
+        a:hover{
+            color: white;
+            background-color: #ded1bd;
+            padding: 10px 10px;
+            text-align: center;
+            text-decoration: none;            
+        }
+        a:active{
+            color: palevioletred;
+            text-decoration: none;
+        }
+        /*----------------------------------------*/
+
+        .column {
+            float: left;
+            width: 40px;
+            padding: 5px;
+        }
+        .row::after {   /* Clearfix (clear floats) */
+            content: "";
+            clear: both;
+            display: table;
+        }
+        /*----------------------------------------*/
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #DDD;
+        }
+        tr:hover {background-color: #ded1bd;}
+
+    </style>
+</head>
+<body>
+    <table cellspacing="20">
+        <tr>
+            <td><img src="images/Mia Profile picture-circle.png" alt="Mia profile picture" style="width:250px; height:250px"></td>
+            <td>
+                <h1><a href="mailto:nguyendanlinh9122000@gmail.com" style="color:black;">✉️Mia Nguyen</a></h1>
+                <p><em>Sophomore at <strong><a href="https://www.lapc.edu/">Pierce College</a></strong></em> </p>
+                <p>I am a new web developer, I love to create websites that are user-friendly and can convey information in effective approaches.</p>
+                <a href="contact.html"><strong> 📞Contact me</strong></a>
+            </td>
+        </tr>
+    </table>
+     
+    
+    
+    <!--contact icon next to each other-->
+    <div class="row">
+        <div class="column">
+            <a href="https://www.linkedin.com/in/thuy-dan-linh-nguyen-54327325b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BromQ5szHSc6lKhx7iGut3Q%3D%3D" target="_blank"> 
+                <img src="images/linkedin icon.png" alt="Linkedin" style="width:40px; height:40px"></a> 
+        </div>
+        <div class="column">
+            <a href="https://www.facebook.com/ThuyDanLinhNguyen/" target="_blank"> 
+                <img src="images/facebook icon.png" alt="Facebook" style="width:40px; height:40px"></a>
+        </div>
+        <div class="column">
+            <a href="https://www.instagram.com/miadecmbr/" target="_blank"> 
+                <img src="images/instagram icon.png" alt="Instagram" style="width:40px; height:40px"></a>
+        </div>
+      </div>
+
+    <!--bookmark-->    
+    <p><a href="#Experience" style="color:black">My experience</a></p>
+    <p><a href="#Hobbies" style="color:black">My hobbies</a></p>
+    <a href="my projects.html">My projects</a>
+
+
+    <hr size="3" noshade>
+
+    <h3 id="Experience">Experience</h3>
+    <ul> <!--unordered list-->
+        <li>One year of C++ programing, including object-orientation coding and data structure.</li>
+        <li>One year of computer achitecture, hardware, and logical gates.</li>
+        <li>Basic Java and Python.</li>
+        <li>Discrete Mathematic for programming and building algorithm.</li>
+    </ul>
+
+    <h3 id="Hobbies">Hobbies</h3>
+    <ol type="i"> <!--ordered list-->
+        <li>I like baking and decorating cake, which also benefit my aesthetic sensibility.</li>
+        <li>I love hiking, gymnastic, and appreciate self-discipline exercises.</li>
+        <li>Using social network is not really a good habit, but updating myself and catch up with new trends around the world is an upside of this hobby.</li>
+    </ol>
+    <hr size="3" noshade>
+
+    <!--education-->
+    <h3>Education and Degrees</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Period</td>
+                <th>School</td>
+                <th>Degree earned</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2020 - 2023</td>
+                <td>Computer science major at Los Angeles Pierce college</td>
+                <td>Associate degree in Math, Stem, and Physics</td>
+            </tr>
+            <tr>
+                <td>2023 - recent</td>
+                <td>Computer Science major at University of california Irvine</td>
+                <td>In progress of getting a BS degree in Computer Science</td>
+            </tr>
+        </tbody>        
+    </table>
+    <hr size="3" noshade>
+
+    <!--skills, using nested-table-->
+    <h3>Skills</h3>
+    
+
+    <table style="width:50%" cellspacing="20">
+        <colgroup>
+            <col span="1" style="background-color: #eeddd3">
+        </colgroup>
+        <tr>
+            <td>C++</td>
+            <td>⭐⭐⭐⭐</td>
+        </tr>
+        <tr>   
+            <td>Java</td>
+            <td>⭐</td>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>⭐⭐</td>
+        </tr>
+        <tr>
+            <td>html</td>
+            <td>⭐⭐</td>
+        </tr>
+        <tr>     
+            <td>Designing </td>
+            <td>⭐⭐⭐</td>
+        </tr>
+        <tr> 
+            <td>Team working</td>
+            <td>⭐⭐</td>
+        </tr>
+        <tr> 
+            <td>Customer service</td>
+            <td>⭐⭐⭐⭐</td>
+        </tr> 
+       
+
+
+
+    </table>
+
+</body>
+</html>
